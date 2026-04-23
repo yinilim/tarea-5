@@ -1,0 +1,21 @@
+{
+  "name": "tarea5",
+  "version": "1.0.0",
+  "description": "CRUD Inventario con Node.js y MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.4",
+    "express": "^4.22.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
