@@ -48,6 +48,10 @@ exports.eliminarProducto = (req, res) => {
     (err) => {
       if (err) throw err;
       res.send('Producto eliminado');
+
+
+
+      
     }
   );
 };
